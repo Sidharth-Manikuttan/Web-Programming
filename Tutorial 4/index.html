@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 4</title>
+</head>
+<body>
+    <h1>Question 1</h1>
+    <h2>Image Searching Website</h2>
+    
+    <form>
+        <label for="search">Search your Image here:</label>
+        <input type="text" id="search" name="search" value="Kung Fu Panda">
+        <input type="button" value="Search">
+    </form>
+    
+    <p><a href="#">For more click here</a></p>
+    
+    <h4>Feedback Form:</h4>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="date">Date:</label><br>
+        <input type="text" id="date" name="date" placeholder="mm/dd/yyyy"><br>
+        
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <br> 
+    <h1>Question 2</h1>
+    <h3>Registration Form</h3>
+    <form>
+        <label for="firstname">Firstname</label>
+        <input type="text" id="firstname" name="firstname"><br><br>
+
+        <label for="middlename">Middlename</label>
+        <input type="text" id="middlename" name="middlename"><br><br>
+
+        <label for="lastname">Lastname</label>
+        <input type="text" id="lastname" name="lastname"><br><br>
+
+        <label for="course">Course :</label>
+        <select id="course" name="course">
+            <option value="">Course</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="BTech">B. Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+            <option value="MTech">M. Tech</option>
+        </select><br><br>
+
+        <label>Gender :</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="phone">Phone :</label>
+        <input type="text" id="phone-code" name="phone-code" value="+91" size="3">
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="address">Address</label><br>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="re-password">Re-type password:</label>
+        <input type="password" id="re-password" name="re-password"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <br>
+    <h1>Question 3</h1>
+    <form autocomplete="on">
+        
+        <h3>Employee Details</h3>    
+        <label for="id">Id:</label>
+        <input type="text" id="id" name="id" required placeholder="Enter employee ID" autocomplete="off"><br><br>
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter full name" autocomplete="name"><br><br>
+        
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+        
+        <label for="designation">Designation:</label>
+        <select id="designation" name="designation" required autocomplete="organization-title">
+            <option value="">Select designation</option>
+            <option value="manager">Manager</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+            <option value="analyst">Analyst</option>
+        </select><br><br>
+        
+        <label for="salary">Salary:</label>
+        <input type="number" id="salary" name="salary" required placeholder="Enter salary amount" autocomplete="off"><br><br>
+        
+        <input type="submit" value="Submit">
+    
+</form>
+</body>
+</html>
