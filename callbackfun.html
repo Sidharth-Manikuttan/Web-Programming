@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function greet(name,callback){
+            document.writeln('hello '+name+'!<br>');
+            setTimeout(callback, 2000);
+        }
+        function sayGoodbye(){
+            var goodbyeMessage = document.createElement('p');
+            goodbyeMessage.innerHTML = 'Goodbye!';
+            document.body.appendChild(goodbyeMessage); 
+        }
+        greet('Alice',sayGoodbye);
+    </script>
+</body>
+</html>
