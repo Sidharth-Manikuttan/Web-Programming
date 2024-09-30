@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num=[10,20,30,40]
+        alert(num)
+        alert(num.length)
+        console.log(num)
+         var s =["aa","bb","cc"]
+         var d=["s","ff","kk"]
+        for (i in s){
+            alert(s[i])
+        }
+        var x=s.pop();
+        alert(x)
+        s.shift()
+        alert(s)
+        s.unshift("pp")
+        alert(s)
+        delete s[1];
+        alert(s);
+        s.splice(2,1,"hai","apple");
+        alert(s);
+         var mystd=s.concat(d);
+         alert(mystd);
+         var sl=mystd.slice(2)
+         alert(sl);
+         alert(mystd.sort());
+    </script>
+</body>
+</html>
